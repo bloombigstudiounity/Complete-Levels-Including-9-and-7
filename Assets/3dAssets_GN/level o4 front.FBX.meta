@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 1606dfb7548eab1439801e62c38fd987
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1c2e5b4840afb18603ec577ba8e998f9
+    second: {fileID: 2800000, guid: 19983173207e1dc4c958b28f034c2d95, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Arch_044_035_box
+    second: {fileID: 2800000, guid: 17db1bd723079244f8ee38671b4476bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Arch_044_035_box2
+    second: {fileID: 2800000, guid: 47a3e65348b91e744b4c943ce507a1b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Crate02
+    second: {fileID: 2800000, guid: 98accb5277e87a84ea907185d02a728d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Crate03
+    second: {fileID: 2800000, guid: 6eae549ed54653a4caedf4e21539490f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Crate06
+    second: {fileID: 2800000, guid: b0af9fbad924d864695dc730492f6e02, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FloorsMarble0026_1_download600
+    second: {fileID: 2800000, guid: cafae9643cd1c0442914000665d038cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Korobka Base Color_COLOR
+    second: {fileID: 2800000, guid: 7216c463ba198384289dcd5099738bb4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Korobka Base Color_DISP
+    second: {fileID: 2800000, guid: afbd4efa4c455494a98d85a3945a0475, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Korobka Base Color_NRM
+    second: {fileID: 2800000, guid: 8dc1a7930999fe740aa1b6808d175480, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Korobka Base Color_OCC
+    second: {fileID: 2800000, guid: 14df7e8276d3d954b81cd7cef9b2b8c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Korobka Base Color_SPEC
+    second: {fileID: 2800000, guid: d1fbe3dfeab4b5943a8ee23ef8ff17e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MetalBare0115_5_S
+    second: {fileID: 2800000, guid: 3334b5364fd18e5418cde84ef8cc12a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ROAD
+    second: {fileID: 2800000, guid: 91c3eb85014fdbb42bf64f37b5e9340c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_0033_1
+    second: {fileID: 2800000, guid: f6a5d1c3653a93f49a2ccc16ad287d17, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: blue_concrete_texture_02_by_arkaydo-d56fo9v
+    second: {fileID: 2800000, guid: 4d8eec875850c4c4a897e3e040fcdefa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crate_tex
+    second: {fileID: 2800000, guid: 8a5c8de9b95d6f54da5009d22b686eac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crate_tex2
+    second: {fileID: 2800000, guid: c50346619a754a544b11d69a8bd1e6d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crate_tex3
+    second: {fileID: 2800000, guid: c2c45fff993e61b45b0cc46ff62e108f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crate_tex4
+    second: {fileID: 2800000, guid: d46967c11e87cd342b5f3877fbad81d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: d682458f9bec04b76fe871158e46bb91
+    second: {fileID: 2800000, guid: efdc20469ff4d9f4394d6e001f308d5e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dark-wood-2
+    second: {fileID: 2800000, guid: 930f14f781e79eb4e85bef332cfc2e8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iron_texture_by_pabloalvin
+    second: {fileID: 2800000, guid: 0ceb0c3c9cb929d4685237d5e4c69407, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kissclipart-window-frame-clipart-replacement-window-clip-art-8886154298da059d
+    second: {fileID: 2800000, guid: b3406b698c4266144a130f56e0d797e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: roller-shutter-door-metal-texture-door-garage-factory_25169-326
+    second: {fileID: 2800000, guid: 33954ce3bc8b09549a3d30059cccffb2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stone_texture205
+    second: {fileID: 2800000, guid: df3305a76baa28641b89275f0542bd7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2800000, guid: 59a89af0d76147c4c80c4c573ff21170, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2800000, guid: c79b93685a19cc24d93af418fee6ea72, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

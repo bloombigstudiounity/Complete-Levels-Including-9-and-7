@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 8678e8cce5d21cc4e8dc4b1bcd34b2e6
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Buildings
+    100002: Overpass1_Clone_
+    100004: Overpass1_Clone__1
+    100006: Overpass1_Clone__2
+    100008: Overpass1_Clone__3
+    100010: Overpass1_Clone__4
+    100012: Overpass__1_
+    100014: Overpass__2_
+    100016: Overpass__3_
+    100018: Overpass__4_
+    100020: Overpass__5_
+    100022: Overpass_Lamp_Clone_
+    100024: Overpass_Lamp_Clone__1
+    100026: Overpass_Lamp_Clone__2
+    100028: Overpass_Lamp_Clone__3
+    100030: Overpass_Lamp_Clone__4
+    100032: Overpass_Lamp_Clone__5
+    100034: Overpass_Lamp_Clone__6
+    100036: Overpass_Lamp_Clone__7
+    100038: Overpass_Lamp_Clone__8
+    100040: Overpass_Lamp_Clone__9
+    100042: Overpass_Lamp_LOD1_Clone_
+    100044: Overpass_Lamp_LOD1_Clone__1
+    100046: Overpass_Lamp_LOD1_Clone__2
+    100048: Overpass_Lamp_LOD1_Clone__3
+    100050: Overpass_Lamp_LOD1_Clone__4
+    100052: Overpass_Lamp_LOD1_Clone__5
+    100054: Overpass_Lamp_LOD1_Clone__6
+    100056: Overpass_Lamp_LOD1_Clone__7
+    100058: Overpass_Lamp_LOD1_Clone__8
+    100060: Overpass_Lamp_LOD1_Clone__9
+    100062: //RootNode
+    400000: Buildings
+    400002: Overpass1_Clone_
+    400004: Overpass1_Clone__1
+    400006: Overpass1_Clone__2
+    400008: Overpass1_Clone__3
+    400010: Overpass1_Clone__4
+    400012: Overpass__1_
+    400014: Overpass__2_
+    400016: Overpass__3_
+    400018: Overpass__4_
+    400020: Overpass__5_
+    400022: Overpass_Lamp_Clone_
+    400024: Overpass_Lamp_Clone__1
+    400026: Overpass_Lamp_Clone__2
+    400028: Overpass_Lamp_Clone__3
+    400030: Overpass_Lamp_Clone__4
+    400032: Overpass_Lamp_Clone__5
+    400034: Overpass_Lamp_Clone__6
+    400036: Overpass_Lamp_Clone__7
+    400038: Overpass_Lamp_Clone__8
+    400040: Overpass_Lamp_Clone__9
+    400042: Overpass_Lamp_LOD1_Clone_
+    400044: Overpass_Lamp_LOD1_Clone__1
+    400046: Overpass_Lamp_LOD1_Clone__2
+    400048: Overpass_Lamp_LOD1_Clone__3
+    400050: Overpass_Lamp_LOD1_Clone__4
+    400052: Overpass_Lamp_LOD1_Clone__5
+    400054: Overpass_Lamp_LOD1_Clone__6
+    400056: Overpass_Lamp_LOD1_Clone__7
+    400058: Overpass_Lamp_LOD1_Clone__8
+    400060: Overpass_Lamp_LOD1_Clone__9
+    400062: //RootNode
+    2100000: Overpass
+    2300000: Overpass1_Clone_
+    2300002: Overpass1_Clone__1
+    2300004: Overpass1_Clone__2
+    2300006: Overpass1_Clone__3
+    2300008: Overpass1_Clone__4
+    2300010: Overpass_Lamp_Clone_
+    2300012: Overpass_Lamp_Clone__1
+    2300014: Overpass_Lamp_Clone__2
+    2300016: Overpass_Lamp_Clone__3
+    2300018: Overpass_Lamp_Clone__4
+    2300020: Overpass_Lamp_Clone__5
+    2300022: Overpass_Lamp_Clone__6
+    2300024: Overpass_Lamp_Clone__7
+    2300026: Overpass_Lamp_Clone__8
+    2300028: Overpass_Lamp_Clone__9
+    2300030: Overpass_Lamp_LOD1_Clone_
+    2300032: Overpass_Lamp_LOD1_Clone__1
+    2300034: Overpass_Lamp_LOD1_Clone__2
+    2300036: Overpass_Lamp_LOD1_Clone__3
+    2300038: Overpass_Lamp_LOD1_Clone__4
+    2300040: Overpass_Lamp_LOD1_Clone__5
+    2300042: Overpass_Lamp_LOD1_Clone__6
+    2300044: Overpass_Lamp_LOD1_Clone__7
+    2300046: Overpass_Lamp_LOD1_Clone__8
+    2300048: Overpass_Lamp_LOD1_Clone__9
+    3300000: Overpass1_Clone_
+    3300002: Overpass1_Clone__1
+    3300004: Overpass1_Clone__2
+    3300006: Overpass1_Clone__3
+    3300008: Overpass1_Clone__4
+    3300010: Overpass_Lamp_Clone_
+    3300012: Overpass_Lamp_Clone__1
+    3300014: Overpass_Lamp_Clone__2
+    3300016: Overpass_Lamp_Clone__3
+    3300018: Overpass_Lamp_Clone__4
+    3300020: Overpass_Lamp_Clone__5
+    3300022: Overpass_Lamp_Clone__6
+    3300024: Overpass_Lamp_Clone__7
+    3300026: Overpass_Lamp_Clone__8
+    3300028: Overpass_Lamp_Clone__9
+    3300030: Overpass_Lamp_LOD1_Clone_
+    3300032: Overpass_Lamp_LOD1_Clone__1
+    3300034: Overpass_Lamp_LOD1_Clone__2
+    3300036: Overpass_Lamp_LOD1_Clone__3
+    3300038: Overpass_Lamp_LOD1_Clone__4
+    3300040: Overpass_Lamp_LOD1_Clone__5
+    3300042: Overpass_Lamp_LOD1_Clone__6
+    3300044: Overpass_Lamp_LOD1_Clone__7
+    3300046: Overpass_Lamp_LOD1_Clone__8
+    3300048: Overpass_Lamp_LOD1_Clone__9
+    4300000: Overpass1_Clone_
+    4300002: Overpass_Lamp_Clone_
+    4300004: Overpass_Lamp_LOD1_Clone_
+    4300006: Overpass_Lamp_Clone__1
+    4300008: Overpass_Lamp_LOD1_Clone__1
+    4300010: Overpass1_Clone__1
+    4300012: Overpass_Lamp_Clone__2
+    4300014: Overpass_Lamp_LOD1_Clone__2
+    4300016: Overpass_Lamp_Clone__3
+    4300018: Overpass_Lamp_LOD1_Clone__3
+    4300020: Overpass1_Clone__2
+    4300022: Overpass_Lamp_Clone__4
+    4300024: Overpass_Lamp_LOD1_Clone__4
+    4300026: Overpass_Lamp_Clone__5
+    4300028: Overpass_Lamp_LOD1_Clone__5
+    4300030: Overpass1_Clone__3
+    4300032: Overpass_Lamp_Clone__6
+    4300034: Overpass_Lamp_LOD1_Clone__6
+    4300036: Overpass_Lamp_Clone__7
+    4300038: Overpass_Lamp_LOD1_Clone__7
+    4300040: Overpass1_Clone__4
+    4300042: Overpass_Lamp_Clone__8
+    4300044: Overpass_Lamp_LOD1_Clone__8
+    4300046: Overpass_Lamp_Clone__9
+    4300048: Overpass_Lamp_LOD1_Clone__9
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

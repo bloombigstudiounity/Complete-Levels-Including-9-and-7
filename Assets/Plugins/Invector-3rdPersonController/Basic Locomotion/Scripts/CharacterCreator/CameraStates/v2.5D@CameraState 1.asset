@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7592ac57a97621844bb7d05b6822c040, type: 3}
+  m_Name: v2.5D@CameraState 1
+  m_EditorClassIdentifier: 
+  Name: 
+  tpCameraStates:
+  - Name: Default
+    forward: -57.16
+    right: 3
+    defaultDistance: 7.46
+    maxDistance: 8
+    minDistance: 0.6
+    height: 1.85
+    smooth: 22.5
+    smoothDamp: 4
+    xMouseSensitivity: 0
+    yMouseSensitivity: 0
+    yMinLimit: -72.24
+    yMaxLimit: 45.4
+    xMinLimit: -362.4
+    xMaxLimit: 361.8
+    rotationOffSet: {x: 2, y: 0.1, z: 0}
+    cullingHeight: 4.57
+    cullingMinDist: -1.29
+    fov: 61.92
+    useZoom: 0
+    fixedAngle: {x: 179.55794, y: -360}
+    lookPoints: []
+    cameraMode: 1
+  - Name: Crouch
+    forward: -1
+    right: 0.2
+    defaultDistance: 7.46
+    maxDistance: 1.5
+    minDistance: 0.5
+    height: 0.5
+    smooth: 10
+    smoothDamp: 4
+    xMouseSensitivity: 0
+    yMouseSensitivity: 0
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: -0.1
+    cullingMinDist: 0.1
+    fov: 60
+    useZoom: 0
+    fixedAngle: {x: 179.55794, y: 0}
+    lookPoints: []
+    cameraMode: 1
+  - Name: Aim
+    forward: -1
+    right: 0.45
+    defaultDistance: 1.15
+    maxDistance: 1.5
+    minDistance: 0.25
+    height: 0.4
+    smooth: 10
+    smoothDamp: 4
+    xMouseSensitivity: 0
+    yMouseSensitivity: 0
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 0.85
+    cullingMinDist: 0.1
+    fov: 60
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints: []
+    cameraMode: 0
