@@ -6,6 +6,10 @@ public class PlayerElevatorExitTrigger : MonoBehaviour
 {
     public Animator _doorAnim;
     public GameObject Ninja;
+    private void Start()
+    {
+        this.gameObject.SetActive(true);
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))

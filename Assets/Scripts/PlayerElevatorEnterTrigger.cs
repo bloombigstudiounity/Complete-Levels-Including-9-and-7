@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerElevatorEnterTrigger : MonoBehaviour
 {
+    private void Start()
+    {
+        this.gameObject.SetActive(true);
+    }
     public Animator _doorAnim;
     private void OnTriggerEnter(Collider other)
     {

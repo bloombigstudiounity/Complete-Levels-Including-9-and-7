@@ -19,6 +19,8 @@ public class PlayerDamage : MonoBehaviour
     public bool hight;
     public float posy;
     private static PlayerDamage instance;
+    public GameObject LiftInnerCube;
+    public GameObject LiftOuterCube;
 
     public static PlayerDamage Instance
     {
@@ -74,13 +76,14 @@ public class PlayerDamage : MonoBehaviour
         {
             if (playerpower > 0)
             {
-                for(int i=0; i<enemyAI.Length;i++)
+                playerpower--;
+                for (int i=0; i<enemyAI.Length;i++)
                 enemyAI[i].SetAnimatorState(1);
                 // EnemyAI.Instance.SetAnimatorState(1);
                 damagepanel.SetActive(true);
                 Invoke("StopDamageimg", 0.1f);
                 Invoke("PoliceIdle", 0.1f);
-                playerpower--;
+               
                 isdead = true;
             }
             else if(playerpower==0)
@@ -103,7 +106,7 @@ public class PlayerDamage : MonoBehaviour
                 
             }
         }
-
+        
        else if(collision.gameObject.tag == "Dog")
         {
             _rigidbody.isKinematic = true;
@@ -115,6 +118,54 @@ public class PlayerDamage : MonoBehaviour
             Invoke("StopDamageimg", 0.1f);
         }
 
+    }
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.tag == "PoliceAI")
+        {
+            if (playerpower > 0)
+            {
+                playerpower--;
+                for (int i = 0; i < enemyAI.Length; i++)
+                    enemyAI[i].SetAnimatorState(1);
+                // EnemyAI.Instance.SetAnimatorState(1);
+                damagepanel.SetActive(true);
+                Invoke("StopDamageimg", 0.1f);
+                Invoke("PoliceIdle", 0.1f);
+
+                isdead = true;
+            }
+            else if (playerpower == 0)
+            {
+                if (isdead)
+                {
+                    for (int i = 0; i < enemyAI.Length; i++)
+                    {
+                        enemyAI[i].SetAnimatorState(0);
+                    }
+                    _rigidbody.isKinematic = true;
+                    Invoke("PoliceIdle", 0.1f);
+                    // _collider.enabled = false;
+                    SetAnimatorState(0);
+                    Invoke("OriginalPos", 3.5f);
+                    isdead = false;
+                }
+
+                //gameObject.transform.position = originalPos;
+
+            }
+        }
+
+        else if (collision.gameObject.tag == "Dog")
+        {
+            _rigidbody.isKinematic = true;
+            _collider.enabled = false;
+            SetAnimatorState(0);
+            Invoke("OriginalPos", 3.5f);
+            playerpower = 0;
+            damagepanel.SetActive(true);
+            Invoke("StopDamageimg", 0.1f);
+        }
     }
     private void OnCollisionExit(Collision collision)
     {
@@ -138,6 +189,8 @@ public class PlayerDamage : MonoBehaviour
         _collider.enabled = true;
         gameObject.transform.position = originalPos;
         playerpower = temp;
+        LiftInnerCube.SetActive(true);
+        LiftOuterCube.SetActive(true);
     }
     void StopDamageimg()
     {
