@@ -15,6 +15,12 @@ public class DogAI : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody>();
+        #if UNITY_EDITOR
+        Debug.unityLogger.logEnabled = true;
+        #else
+        Debug.unityLogger.logEnabled = false;
+        #endif
+      
     }
 
     // Update is called once per frame
